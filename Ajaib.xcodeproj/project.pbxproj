@@ -10,11 +10,11 @@
 		94737CA125FA842A008F2FA8 /* EnteryPointDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CA025FA842A008F2FA8 /* EnteryPointDI.swift */; };
 		94737CA825FA882B008F2FA8 /* AppCoordinator+DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CA725FA882B008F2FA8 /* AppCoordinator+DI.swift */; };
 		94737CAB25FA8848008F2FA8 /* BaseNavigationController+DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CAA25FA8848008F2FA8 /* BaseNavigationController+DI.swift */; };
-		94737CAE25FA8A24008F2FA8 /* InitialStartCoordinatorDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CAD25FA8A24008F2FA8 /* InitialStartCoordinatorDI.swift */; };
+		94737CAE25FA8A24008F2FA8 /* InitialStartCoordinator+DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CAD25FA8A24008F2FA8 /* InitialStartCoordinator+DI.swift */; };
 		94737CB225FA91FA008F2FA8 /* TestScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CB125FA91FA008F2FA8 /* TestScreenVC.swift */; };
 		94737CB625FA9213008F2FA8 /* TestScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CB525FA9213008F2FA8 /* TestScreenVM.swift */; };
 		94737CB925FA9220008F2FA8 /* TestScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CB825FA9220008F2FA8 /* TestScreenCoordinator.swift */; };
-		94737CBC25FA93AE008F2FA8 /* TestScreenCoordinatorDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CBB25FA93AE008F2FA8 /* TestScreenCoordinatorDI.swift */; };
+		94737CBC25FA93AE008F2FA8 /* TestScreenCoordinator+DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94737CBB25FA93AE008F2FA8 /* TestScreenCoordinator+DI.swift */; };
 		94D8F66425F279A200E21EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8F66325F279A200E21EB5 /* AppDelegate.swift */; };
 		94D8F66625F279A200E21EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D8F66525F279A200E21EB5 /* SceneDelegate.swift */; };
 		94D8F66D25F279A300E21EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D8F66C25F279A300E21EB5 /* Assets.xcassets */; };
@@ -39,11 +39,11 @@
 		94737CA025FA842A008F2FA8 /* EnteryPointDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnteryPointDI.swift; sourceTree = "<group>"; };
 		94737CA725FA882B008F2FA8 /* AppCoordinator+DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppCoordinator+DI.swift"; sourceTree = "<group>"; };
 		94737CAA25FA8848008F2FA8 /* BaseNavigationController+DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseNavigationController+DI.swift"; sourceTree = "<group>"; };
-		94737CAD25FA8A24008F2FA8 /* InitialStartCoordinatorDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialStartCoordinatorDI.swift; sourceTree = "<group>"; };
+		94737CAD25FA8A24008F2FA8 /* InitialStartCoordinator+DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InitialStartCoordinator+DI.swift"; sourceTree = "<group>"; };
 		94737CB125FA91FA008F2FA8 /* TestScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenVC.swift; sourceTree = "<group>"; };
 		94737CB525FA9213008F2FA8 /* TestScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenVM.swift; sourceTree = "<group>"; };
 		94737CB825FA9220008F2FA8 /* TestScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenCoordinator.swift; sourceTree = "<group>"; };
-		94737CBB25FA93AE008F2FA8 /* TestScreenCoordinatorDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenCoordinatorDI.swift; sourceTree = "<group>"; };
+		94737CBB25FA93AE008F2FA8 /* TestScreenCoordinator+DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestScreenCoordinator+DI.swift"; sourceTree = "<group>"; };
 		94D8F66025F279A200E21EB5 /* Ajaib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ajaib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D8F66325F279A200E21EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94D8F66525F279A200E21EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -169,8 +169,8 @@
 				94D8F70125F667F600E21EB5 /* UIWindow+DI.swift */,
 				94737CA725FA882B008F2FA8 /* AppCoordinator+DI.swift */,
 				94737CAA25FA8848008F2FA8 /* BaseNavigationController+DI.swift */,
-				94737CAD25FA8A24008F2FA8 /* InitialStartCoordinatorDI.swift */,
-				94737CBB25FA93AE008F2FA8 /* TestScreenCoordinatorDI.swift */,
+				94737CAD25FA8A24008F2FA8 /* InitialStartCoordinator+DI.swift */,
+				94737CBB25FA93AE008F2FA8 /* TestScreenCoordinator+DI.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -317,10 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D8F6E525F5E79800E21EB5 /* Infix.swift in Sources */,
-				94737CBC25FA93AE008F2FA8 /* TestScreenCoordinatorDI.swift in Sources */,
+				94737CBC25FA93AE008F2FA8 /* TestScreenCoordinator+DI.swift in Sources */,
 				94D8F70D25F66AF800E21EB5 /* InitialStartVC.swift in Sources */,
 				94D8F71125F66B3000E21EB5 /* InitialStartVM.swift in Sources */,
-				94737CAE25FA8A24008F2FA8 /* InitialStartCoordinatorDI.swift in Sources */,
+				94737CAE25FA8A24008F2FA8 /* InitialStartCoordinator+DI.swift in Sources */,
 				94737CB625FA9213008F2FA8 /* TestScreenVM.swift in Sources */,
 				94737CA825FA882B008F2FA8 /* AppCoordinator+DI.swift in Sources */,
 				94D8F71725F66D9500E21EB5 /* BaseViewModel.swift in Sources */,
