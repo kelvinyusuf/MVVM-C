@@ -1,5 +1,3 @@
-# MVVM-C
-
 ## MVVM-C: Model View ViewModel - Coordinator
 
 Open Source Library:
