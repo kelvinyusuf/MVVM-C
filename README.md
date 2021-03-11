@@ -1,4 +1,7 @@
-## MVVM-C: Model View ViewModel - Coordinator
+<h1 align="center">MVVM-C: Model View ViewModel - Coordinator</h1>
+<p align="center">
+  <img src="https://marcosantadev.com/wp-content/uploads/mvvm.jpg" alt="MVVM Diagram"/>
+</p>
 
 Open Source Library:
 - [Cleanse](https://github.com/square/Cleanse) - Cleanse is a dependency injection framework for Swift.
